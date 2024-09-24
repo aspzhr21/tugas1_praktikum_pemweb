@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f9; color: #333; padding: 20px;">
+
+    <h1 style="text-align: center; color: #5a2a9b;">Formulir Pendaftaran</h1>
+
+    <form action="" method="post" style="max-width: 600px; margin: 0 auto; background-color: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+
+        <div style="margin-bottom: 15px;">
+            <label for="name" style="display: block; font-weight: bold; margin-bottom: 5px;">Nama:</label>
+            <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ddd;">
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label for="nim" style="display: block; font-weight: bold; margin-bottom: 5px;">NIM:</label>
+            <input type="text" id="nim" name="nim" placeholder="Masukkan NIM Anda" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ddd;">
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label for="prodi" style="display: block; font-weight: bold; margin-bottom: 5px;">Program Studi:</label>
+            <input type="text" id="prodi" name="prodi" placeholder="Masukkan Prodi Anda" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ddd;">
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label for="email" style="display: block; font-weight: bold; margin-bottom: 5px;">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Masukkan email Anda" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ddd;">
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label for="semester" style="display: block; font-weight: bold; margin-bottom: 5px;">Semester berapa anda? :</label>
+            <input type="semester" id="semester" name="semester" placeholder="hayoo semester berapa.." style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ddd;">
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label for="date" style="display: block; font-weight: bold; margin-bottom: 5px;">Tanggal Lahir:</label>
+            <input type="date" id="date" name="date" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ddd;">
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label style="display: block; font-weight: bold; margin-bottom: 5px;">Jenis Kelamin:</label>
+            <input type="radio" id="male" name="gender" value="male" style="margin-right: 5px;">
+            <label for="male" style="margin-right: 20px;">Laki-laki</label>
+            <input type="radio" id="female" name="gender" value="female" style="margin-right: 5px;">
+            <label for="female">Perempuan</label>
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label style="display: block; font-weight: bold; margin-bottom: 5px;">Hobi:</label>
+            <input type="checkbox" id="hobby1" name="hobbies" value="sports" style="margin-right: 5px;">
+            <label for="hobby1" style="margin-right: 20px;">Ngewibu</label>
+            <input type="checkbox" id="hobby2" name="hobbies" value="reading" style="margin-right: 5px;">
+            <label for="hobby2">Ngoding</label>
+            <input type="checkbox" id="hobby2" name="hobbies" value="reading" style="margin-right: 5px;">
+            <label for="hobby2"> Lainnya</label>
+            <input type="lainnya" lainnya="lainnya" style="margin-right: 10px;">
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label for="image" style="display: block; font-weight: bold; margin-bottom: 5px;">Masukkan foto kamu yang lucu:</label>
+            <input type="file" id="image" name="image" style="padding: 10px; border-radius: 5px; border: 1px solid #ddd;">
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label for="comments" style="display: block; font-weight: bold; margin-bottom: 5px;">Gimana rasanya jadi mahasiswa ITERA:</label>
+            <textarea id="comments" name="comments" placeholder="Masukkan komentar Anda" rows="4" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ddd;"></textarea>
+        </div>
+
+        <div style="text-align: center;">
+            <button type="submit" style="background-color: #5a2a9b; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">Kirim</button>
+        </div>
+
+    </form>
+
+</body>
+</html>
